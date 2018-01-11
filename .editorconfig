@@ -1,0 +1,28 @@
+; EditorConfig to support per-solution formatting.
+; Use the EditorConfig VS add-in to make this work.
+; http://editorconfig.org/
+
+; This is the default for the codeline.
+root = true
+
+[*]
+charset = utf-8
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+max_line_length = 100
+
+[*.xml]
+max_line_length = off
+
+[*.{cs,html}]
+dotnet_sort_system_directives_first = true
+indent_size = 4
+max_line_length = 160
+js_indent_size = 2
+
+[Makefile]
+max_line_length = off
+indent_style = tab
+tab_width = 4
