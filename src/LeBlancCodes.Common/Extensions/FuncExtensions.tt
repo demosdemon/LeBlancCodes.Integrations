@@ -1,0 +1,21 @@
+<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".cs" #>
+<#@ include file="../CodeGen/Helpers.ttinclude" #>
+using System;
+using System.Threading.Tasks;
+
+namespace LeBlancCodes.Common.Extensions
+{
+    public static class FuncExtensions
+    {
+<#    for (var i = 0; i < Math.Min(16, MaxArity()); ++i) { #>
+        public static bool IsAsync<<#= FuncTypes(i) #>>(this <#= FuncType(i) #> func) => typeof(Task).IsAssignableFrom(typeof(TResult));
+
+<#    } #>
+    }
+}

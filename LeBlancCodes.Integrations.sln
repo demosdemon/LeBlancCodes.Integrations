@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeBlancCodes.Integrations.Jobs", "src\LeBlancCodes.Integrations.Jobs\LeBlancCodes.Integrations.Jobs.csproj", "{FE0E74CB-13F0-46A5-A033-A54E88341DA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeBlancCodes.Common", "src\LeBlancCodes.Common\LeBlancCodes.Common.csproj", "{DC9D2AF1-471A-46A6-BF1E-CD8538DAF779}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +26,14 @@ Global
 		{74963945-11F3-4D01-99E6-73755D094FB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74963945-11F3-4D01-99E6-73755D094FB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74963945-11F3-4D01-99E6-73755D094FB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE0E74CB-13F0-46A5-A033-A54E88341DA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE0E74CB-13F0-46A5-A033-A54E88341DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE0E74CB-13F0-46A5-A033-A54E88341DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE0E74CB-13F0-46A5-A033-A54E88341DA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC9D2AF1-471A-46A6-BF1E-CD8538DAF779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC9D2AF1-471A-46A6-BF1E-CD8538DAF779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC9D2AF1-471A-46A6-BF1E-CD8538DAF779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC9D2AF1-471A-46A6-BF1E-CD8538DAF779}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
